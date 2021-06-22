@@ -1,0 +1,161 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    
+}
+
+body{
+    background-color: #F0F0F0;
+}
+
+#wrapper{
+    width: 45%;
+}
+
+/* Nibo Logo - NavBar */
+nav{
+    background-color: #FFFFFF;
+}
+
+#nibo-logo{
+    margin: 3% auto;
+    margin-left: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: #FFFFFF;
+}
+
+/* Banner Countdown */
+#countdown-section{
+    display:block; 
+    justify-content: center; 
+    align-items: center;
+    max-height: 230px;
+    background-image: url(../../_resource/blackfriday-bg-emails.png);
+}
+
+#live-gratuita-badge{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    object-fit: scale-down;
+    width: 15%;
+}
+
+#countdown-section  p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family:'Sans-serif';
+}
+
+#counter-blackfriday{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 40%;
+}
+
+/* Saudações */
+#saudacao-section{
+    background-color: #FFFFFF;
+}
+
+.text-box{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    line-height: 1.6;
+    width: 90%;
+}
+
+/* Agenda */
+#agenda{
+    background-color: #F0F0F0;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.linha-vertical {
+    padding: 3% 2% 1% 4%;
+    border-left: 6px solid #FFC200;
+    border-radius: 1%;
+    height: 80px;
+    margin: 2% 2% 0 5%;
+    width: 85%;
+}
+
+.linha-vertical  p{
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+/* Programação */
+#confira{
+    background-color: #FFFFFF;
+}
+
+#confira-titulo{
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+
+.confira-conteudo {
+    width: 90%;
+}
+
+.confira-conteudo p{
+    padding-bottom: 2%;
+}
+
+.confira-conteudo img{
+    width: 3%;
+    padding-right: 1%;
+}
+
+#confira a{
+    display: block;
+    margin: 2% auto 2% auto; 
+    background-color: #FFC200;
+    color: #000000;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    border-radius: 5%;
+}
+
+.confira-rodape{
+    width: 90%;
+}
+
+.confira-rodape p {
+    padding-bottom: 4%;
+}
+
+/* Redes Sociais */
+#rodape{
+    background-color: #313336;
+}
+
+#rodape img{
+    width: 5%;
+    padding: 2% 2% 1% 2%;
+}
+
+.rodape-wraper{
+    text-align: center;
+}
+
+/* Adendo preferências */
+#adendo{
+    width: 77%;
+    padding: 5% 0 5% 0;
+    text-align: center;   
+    color: #61686A;
+}
+
+#adendo a{
+    text-decoration: none;
+}
